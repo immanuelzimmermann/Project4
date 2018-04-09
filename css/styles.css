@@ -1,0 +1,42 @@
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container header {
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[id="search"]{
+    font-size: 16px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.images img {
+    margin: 5px;
+    width: 100%;
+}
+
+@media (min-width: 769px){
+
+    .container {
+        width: 60%;
+    }
+
+    .container header {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    #search {
+        width: 200px;
+    }
+
+    .images img {
+        width: auto;
+    }
+}
