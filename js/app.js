@@ -1,5 +1,5 @@
 $(document).ready(function(){
     $('#search').hideseek({
-        attribute: "data-lightbox"
+        attribute: "data-title"
     });
 });
